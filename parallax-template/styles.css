@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*--Navigation Bar--*/
+.navigation-bar{
+    position: fixed;
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: inherit;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+.menu-items{
+    color: #b3aeae;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    color: #b3aeae;
+    justify-content: end;
+}
+
+
+#section-1{
+    height: 400px;
+    background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 45px;
+    width: 420px;
+}
+.container-1>p{
+    font-size: 24px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+
+#section-2{
+    height: 1200px;
+    padding:64px 16px;
+    margin: 0 270px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.container-2>h3{
+    margin: 10px 0;
+    height: 45px;
+    font-size: 24px;
+    line-height: 1.8;
+}
+.passion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.passion-name{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 27px;
+}
+.about-passion{
+    margin-bottom: 15px;
+    height: 162px;
+    line-height: 1.8;
+    font-size: 15px;
+    text-align: justify;
+}
+.name{
+    display: flex;
+    flex-wrap: wrap;
+}
+.name-image{
+    width: 50%;
+    height: 400px;
+    text-align: center;
+}
+.name-image>p{
+    height: 27px;
+    margin: 15px 0;
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 600;
+}
+.name-image>img{
+    height: 283px;
+    width: 425px;
+}
+.description{
+    width: 50%;
+    padding: 12px 24px;
+    
+}
+.description>p{
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.skills{
+    display:flex;
+    flex-direction: column;
+    width: 947px;
+}
+.skills>h5{
+    align-self: center;
+    margin: 18px 0;
+    padding: 16px 0;
+    font-size:18px;
+    line-height: 1.8;
+}
+.skill-name{
+    letter-spacing: 10px;
+    font-size: 18px;
+    margin: 15px 0;
+}
+.skills>div{
+    width: inherit;
+}
+.skill-percentage{
+    display: flex;
+    height: 35px;
+    text-align: center;
+}
+.percentage{
+    background-color: #4e4e4e;
+    color: white;
+    padding: 8px 0;
+    font-size: 17px;
+}
+
+.section-3{
+    height: 135px;
+    background-color: #616060;
+}
