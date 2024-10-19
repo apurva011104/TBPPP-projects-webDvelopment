@@ -7,6 +7,13 @@
 a{
     text-decoration: none;
 }
+.title-covers{
+    color: white;
+    line-height: 1.8;
+    font-size: 36px;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
 
 /*--Navigation Bar--*/
 .navigation-bar{
@@ -24,17 +31,18 @@ a{
     height: inherit;
 }
 .menu-items{
-    color: #b3aeae;
+    color: black;
 }
 .search-icon{
     display: flex;
     align-items: center;
     height: inherit;
-    color: #b3aeae;
+    color: black;
     justify-content: end;
 }
 
 
+/*--Section-1--*/
 #section-1{
     height: 400px;
     background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
@@ -61,12 +69,12 @@ a{
 }
 
 
+/*--Section-2--*/
 #section-2{
     height: 1200px;
     padding:64px 16px;
     margin: 0 270px;
 }
-
 .container-2{
     display: flex;
     flex-direction: column;
@@ -163,7 +171,144 @@ a{
     font-size: 17px;
 }
 
-.section-3{
-    height: 135px;
+
+/*--Section-3--*/
+#section-3{
+    padding:0 16px;
     background-color: #616060;
+}
+.container-3{
+    height: 135px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+}
+.container-3-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-3-box>p{
+    color: white;
+}
+.quantity{
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+
+/*--Section-4--*/
+#section-4{
+    height: 400px;
+    background-image: url("https://www.w3schools.com/w3images/parallax2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*--Section-5--*/
+#section-5{
+    height: 800px;
+    margin: 0 270px;
+}
+.container-5{
+    padding: 64px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-work{
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    color: gray;
+}
+.my-work-heading{
+    height: 45px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.my-work-heading>h1{
+    font-size: 24px;
+    color: gray;
+    font-weight: 400;
+}
+.my-work-description{
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+.images-taken{
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    width: 948px;
+    height: 350px;
+    margin: 16px;
+    align-items: center;
+}
+.photos{
+    justify-self: center;
+    width: 216px;
+    height: 162px;
+}
+.load-more-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+.load-more{
+    height: 50px;
+    width: 134px;
+    background-color: #f1f1f1;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.load-more:hover{
+    background-color: #b5b5b5;
+}
+
+
+/*--Section-6--*/
+#section-6{
+    height: 400px;
+    background-image: url("https://www.w3schools.com/w3images/parallax3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-7{
+    height: 700px;
+    padding: 0 270px;
+}
+
+
+
+footer{
+    height: 300px;
 }
